@@ -17,7 +17,7 @@ class YoutubeSearchController extends Controller
                 'q'             => ($query == "" ? "":$query),
                 'type'          => 'video',
                 'part'          => 'id, snippet',
-                'maxResults'    => 15
+                'maxResults'    => 16
             ];
             // Call youtube search videos with advances params function
             $videoList = Youtube::searchAdvanced($params,true);
