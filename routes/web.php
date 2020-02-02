@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route for homepage
+Route::get('/', function(){
+    return view('new');
 });
+
+//Route for AJAX GET call from browser
+Route::get('/action', 'YoutubeSearchController@action')->name('action');
