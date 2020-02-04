@@ -179,7 +179,7 @@ return [
          * Youtube API Providers...
          */
         
-        Alaouy\Youtube\YoutubeServiceProvider::class,
+        //Alaouy\Youtube\YoutubeServiceProvider::class,
 
     ],
 
@@ -231,7 +231,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Youtube' => Alaouy\Youtube\Facades\Youtube::class,
+        //'Youtube' => Alaouy\Youtube\Facades\Youtube::class,
     ],
 
 ];
