@@ -18,5 +18,3 @@ Route::get('/', function(){
 
 //Route for AJAX GET call from browser
 Route::get('/action', 'YoutubeSearchController@action')->name('action');
-
-Route::get('/action2', 'YoutubeSearchController@action2')->name('action2');
